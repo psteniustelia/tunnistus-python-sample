@@ -1,0 +1,50 @@
+{
+  "telia_sfcase": "0",
+  "telia_profile": "default",
+  "organization_name": "Telia",
+  "contacts": [
+    "id-maintenance@teliacompany.com"
+  ],
+  "redirect_uris": [
+    "http://localhost/redirect"
+  ],
+  "jwks": {
+    "keys": [
+      {
+        "kty": "RSA",
+        "use": "sig",
+        "kid": "tAi2Jj4f1ngTgYaAVTQLoZvcOXGujOXgwc1n8CvOHzU",
+        "n": "qQE8yb5ecCvsBCshkWqeTVr-skqq9-vPOkrWcrwI29F6MFzy_WhfELU-rkTZKhbRqhnoPfgeQBG5ZbgKY32M9u6O1rUCmNXMiNhyh3j4j9WN5OzLJQbFzi3_rVClAcku_1GJKTl-1wVaeY7vFdF_C5nS49tQbIL0GOw6xDcWKF5PM1KG__odRys-szL7a1mOCxXA3I9THqTMJnJ0t_W6RIDBBj930RJarusw0oIVA7SVmHCInpLhoOiGAcE634PQlJJU1hgXGHRkKO6VAeZeXTiwQVonsE8Fe1veDLepHwTpJMfZd2vV4v83_sKem0RKdz9fyhKKVTGvaI1TtNwMvw",
+        "e": "AQAB"
+      },
+      {
+        "kty": "RSA",
+        "use": "enc",
+        "kid": "J8w1gHx-9EgkzAnbvVyokxow-ESGvNC9CL3xpEIEE9A",
+        "n": "xd2uDMtfXF55Adyf0MeRt6ZqCtoY02C0NugCkOhcKSbD_a5RhWBaPbasc5SjkZbuZRc4xc-Qu017W8FIpsn6pSrCc5x7Eo3QsD4FAAy6YSUBvqHb8zMaxLG41E6D0kMaeJU2HVt5HnT8rN2U66-1Z7VXwtrhW9KeBgxzv6plfWG3MkzrbAtV16E1sv64dFfoIJ_oMP71WKSrn_0KUjX6_1TThhKNxie6jcyQq0wsHDBM-6G4p8Mn_DL-zyq9PwkyTfC-ZHVKbLEqAbQUjBAbrbPt-hBNbw-LKtot6JYUHREOdS3pHrDtO1unVYOIsJr_XycKAxT49iCa6xemDQ4ndw",
+        "e": "AQAB"
+      }
+    ]
+  },
+  "client_name#fi": "Telia Tunnistus Esimerkki",
+  "client_name#sv": "Telia Identifieringstjänst Exempel",
+  "client_name#en": "Telia Identification Service Example",
+  "client_uri": "http://localhost",
+  "application_id": "Telia Tunnistus Esimerkki",
+  "grant_types": [
+    "authorization_code"
+  ],
+  "scope": "openid",
+  "require_signed_request_object": true,
+  "request_object_signing_alg": "RS256",
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "RS256",
+  "id_token_signed_response_alg": "RS256",
+  "id_token_encrypted_response_alg": "RSA-OAEP",
+  "id_token_encrypted_response_enc": "A128CBC-HS256",
+  "userinfo_signed_response_alg": "RS256",
+  "userinfo_encrypted_response_alg": "RSA-OAEP",
+  "userinfo_encrypted_response_enc": "A128CBC-HS256",
+  "client_id": "118dba6d-705a-43be-bb88-6fc47214d56a",
+  "client_secret": null
+}
