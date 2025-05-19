@@ -65,7 +65,7 @@ elif args.previous is not None:
     token.validate(prev_jwks)
 elif args.insecure:
     claims = json.loads(token.claims)
-    print(f"the entity statement issued by {claims.get("iss")} was not validated")
+    print(f"the entity statement issued by {claims.get('iss')} was not validated")
     print(f"fingerprint {hashlib.sha256(r.content).hexdigest()}")
 else:
     raise Exception()
