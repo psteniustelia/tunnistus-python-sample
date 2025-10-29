@@ -64,7 +64,9 @@ class ClientState:
 def get_client_state(state: str | None) -> ClientState | None:
     if state is None:
         return None
-    state = global_state.get(state)
+    if state not in global_state:
+        return None
+    state = global_state.pop(state)
     if state is None:
         return None
     return state

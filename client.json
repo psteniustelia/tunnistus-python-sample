@@ -45,6 +45,6 @@
   "userinfo_signed_response_alg": "RS256",
   "userinfo_encrypted_response_alg": "RSA-OAEP",
   "userinfo_encrypted_response_enc": "A128CBC-HS256",
-  "client_id": "118dba6d-705a-43be-bb88-6fc47214d56a",
+  "client_id": "ea28902d-0283-4c31-9511-a4dc279d6103",
   "client_secret": null
 }
